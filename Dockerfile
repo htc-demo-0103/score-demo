@@ -1,5 +1,5 @@
 # Base the image on the node base image
-FROM node:lts-alpine3.14
+FROM node:lts-alpine
 
 # Define container where the app will be placed
 WORKDIR /usr/src/app
